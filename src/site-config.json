@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Legacy Electrical",
+    "phone": "555-ele-rq9",
+    "category": "electrical",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "electrical-heritage-craft",
+      "categoryGroup": "electrical",
+      "name": "Heritage Craft",
+      "recipeFile": "electrical/heritage-craft.astro",
+      "colors": {
+        "primary": "#8B7B3C",
+        "primaryDark": "#534a24",
+        "primaryLight": "#d6d1bb",
+        "secondary": "#766933",
+        "accent": "#8B7B3C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#766933",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "electrical/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Dependable Dallas Electrical Experts",
+      "heroSubline": "Legacy Electrical keeps North Texas homes safe and powered. Locally owned, trusted by families across DFW since 2012.",
+      "aboutTitle": "Our Story in Dallas",
+      "aboutText": [
+        "Founded in 2012 by Dallas native James Holloway, Legacy Electrical began as a one-truck operation serving historic Lake Highlands homes. Today, we're proud to employ 20+ local electricians who understand the unique wiring needs of DFW's diverse architecture.",
+        "We believe electrical work should be predictable, safe, and hassle-free. Every project starts with a thorough assessment and ends with a system you can trust through Texas storms and heat waves alike.",
+        "From sponsoring Deep Ellum Arts Festival to volunteering wiring services for Oak Lawn community centers, we're committed to keeping Dallas neighborhoods thriving."
+      ],
+      "valueProps": [
+        {
+          "title": "Storm-Ready Wiring",
+          "description": "We fortify homes against North Texas' severe weather with surge protection and weatherproof installations."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "Skilled in updating wiring for Dallas' classic Tudors and ranches without compromising character."
+        },
+        {
+          "title": "Same-Day Emergency Service",
+          "description": "When hail knocks out power or AC fails in July heat, we respond fast with local crews."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No surprises - you'll get detailed estimates that account for Dallas' specific permitting requirements."
+        }
+      ],
+      "ctaHeadline": "Need a Dallas electrician today?",
+      "ctaSubline": "Call our local team at 555-ele-rq9 for prompt service across DFW."
+    },
+    "services": [
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Modernize your home's power center for Dallas' extreme weather demands.",
+        "description": "Many Dallas homes still operate with 60-amp panels from the 1950s - dangerously outdated for today's appliances and North Texas storms. We replace these with 200-amp panels featuring whole-house surge protection, crucial for safeguarding electronics during our frequent lightning storms.\n\nOur process begins with assessing your current panel's condition (common issues include Federal Pacific panels in older Plano homes). We handle all Dallas permits before installing Square D or Eaton panels with room for future expansions. For historic homes in McKinney, we discreetly route new conduit to preserve architectural integrity.\n\nUpgraded panels prevent flickering lights during AC season and reduce fire risks in Arlington's aging ranch homes. They're also essential for adding EV chargers as more DFW residents switch to electric vehicles.",
+        "process": [
+          "Step 1: Comprehensive load calculation accounting for Dallas heat pump demands",
+          "Step 2: Permit acquisition through your local municipality",
+          "Step 3: Safe removal of outdated equipment with minimal disruption",
+          "Step 4: Installation of weatherproof panel with whole-house surge protection"
+        ],
+        "benefits": [
+          "Prevents circuit overloads during Texas summer AC use",
+          "Meets current Dallas safety codes for home insurance",
+          "Accommodates future solar or EV charger installations",
+          "Reduces fire risks in older wiring systems"
+        ],
+        "faq": [
+          {
+            "question": "How long does a panel upgrade take in Dallas homes?",
+            "answer": "Most Dallas-area upgrades complete in 6-8 hours. Historic homes may require extra time for careful conduit routing around original features."
+          },
+          {
+            "question": "Will this prevent damage from Texas lightning storms?",
+            "answer": "While no system is 100% protective, our surge-equipped panels have saved Dallas clients thousands in appliance replacements after severe thunderstorms."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-rewiring",
+        "name": "Whole-House Rewiring",
+        "shortDescription": "Replace dangerous knob-and-tube wiring in Dallas' historic homes.",
+        "description": "The charming Tudors of Preston Hollow and Craftsman bungalows near Fort Worth's downtown often conceal hazardous knob-and-tube wiring. Our rewiring specialists preserve your home's character while bringing electricity up to modern Dallas safety standards.\n\nWe start by mapping every circuit, paying special attention to attics where Texas heat accelerates insulation breakdown. For plaster walls in historic districts, we use fishing techniques that minimize damage. All new wiring includes AFCI protection now required by Dallas building codes - critical for preventing electrical fires in drywall construction.\n\nThe process typically takes 3-5 days for a 2,000 sq ft Dallas home. We coordinate closely with homeowners to minimize disruption, often completing noisy work during school hours. Final inspection includes thermal imaging to identify any hotspots before drywall repairs begin.",
+        "process": [
+          "Step 1: Detailed circuit mapping with voltage testing",
+          "Step 2: Strategic removal of outdated wiring with minimal wall impact",
+          "Step 3: Installation of moisture-resistant Romex wiring",
+          "Step 4: AFCI breaker installation and final city inspection"
+        ],
+        "benefits": [
+          "Eliminates fire risks from brittle old wiring",
+          "Allows safe use of modern appliances",
+          "Meets Dallas insurance requirements",
+          "Increases home value for resale"
+        ],
+        "faq": [
+          {
+            "question": "How disruptive is rewiring my Dallas home?",
+            "answer": "We plan the work in phases to maintain power to essential areas. Most families stay home during the process with minimal inconvenience."
+          },
+          {
+            "question": "Will this require drywall repairs?",
+            "answer": "Small access points are needed, but we partner with local drywall specialists who can make seamless repairs matching your home's texture."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-lighting-installation",
+        "name": "Outdoor Lighting Installation",
+        "shortDescription": "Illuminate your Dallas property with weather-resistant lighting solutions.",
+        "description": "DFW's long summer evenings and frequent outdoor entertaining demand durable landscape lighting. We design systems that withstand Texas' extreme conditions while enhancing your home's curb appeal.\n\nFor Frisco's newer constructions, we install low-voltage LED path lighting with automatic dusk-to-dawn operation. In Arlington's mature neighborhoods, we highlight architectural features with directional spotlights rated for hail protection. All wiring is buried 18\" deep to prevent damage from Texas ground movement.\n\nOur most popular package for Dallas homes includes motion-activated security lights near garages (a frequent target in urban areas), decorative wall sconces for porches, and pool area lighting rated for humid conditions. We use only brass or stainless steel fixtures that resist corrosion from our humid climate.",
+        "process": [
+          "Step 1: Nighttime site evaluation to identify dark zones",
+          "Step 2: Custom lighting plan balancing security and ambiance",
+          "Step 3: Installation of underground conduit meeting Dallas codes",
+          "Step 4: Programming smart controls for energy efficiency"
+        ],
+        "benefits": [
+          "Deters crime in Dallas urban areas",
+          "Extends outdoor living through Texas summers",
+          "Withstands North Texas hail storms",
+          "Energy-efficient LED technology"
+        ],
+        "faq": [
+          {
+            "question": "How do Dallas weather conditions affect lighting choices?",
+            "answer": "We avoid plastic components that become brittle in our heat. All connections are sealed against humidity, and fixtures have impact-resistant ratings for hail protection."
+          },
+          {
+            "question": "Can lighting help with home security?",
+            "answer": "Properly placed lights reduce burglary risks by 50% according to Dallas PD statistics. We position fixtures to eliminate shadows where intruders might hide."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Generator Installation",
+        "shortDescription": "Keep your Dallas home powered through Texas outages.",
+        "description": "After the 2021 Texas power crisis, many DFW homeowners invested in backup generators. We install permanent Generac systems sized perfectly for your home's needs during extended outages.\n\nFor Plano's larger homes, we typically recommend 22kW units capable of running multiple AC zones. McKinney's historic districts often require quieter inverter generators to meet noise ordinances. All installations include automatic transfer switches that activate within seconds of power loss - crucial for protecting food and medications during summer outages.\n\nWe handle the complex permitting process required by Dallas-area municipalities, including proper placement relative to windows and property lines. Maintenance contracts include twice-yearly testing before storm season and after winter freezes when generators see heaviest use.",
+        "process": [
+          "Step 1: Load calculation accounting for Dallas cooling needs",
+          "Step 2: Site preparation meeting local setback requirements",
+          "Step 3: Professional installation with automatic transfer switch",
+          "Step 4: Comprehensive testing with your city's inspector"
+        ],
+        "benefits": [
+          "Maintains AC during Texas heat waves",
+          "Protects pipes during winter freezes",
+          "Automatic operation when traveling",
+          "Increases home value in DFW market"
+        ],
+        "faq": [
+          {
+            "question": "How long can a generator power my Dallas home?",
+            "answer": "With proper fuel management, our installations typically run 5-7 days continuously - enough to weather most Texas grid emergencies."
+          },
+          {
+            "question": "Will it be noisy in my neighborhood?",
+            "answer": "Modern generators operate at 60 decibels (quieter than a vacuum). We position them strategically to minimize sound impact on neighbors."
+          }
+        ]
+      },
+      {
+        "slug": "ceiling-fan-installation",
+        "name": "Ceiling Fan Installation",
+        "shortDescription": "Improve comfort in Dallas homes with expert fan installations.",
+        "description": "Proper ceiling fan placement can reduce Dallas cooling costs by up to 40% during our brutal summers. We install high-efficiency fans with Texas-specific features like moisture-resistant motors and reversible airflow for seasonal use.\n\nIn Uptown condos with concrete ceilings, we use specialized mounting systems that prevent wobble. For Lake Highlands' vaulted ceilings, we install extended downrods for optimal air circulation. Every installation includes balancing to prevent the annoying humming common in Texas' humidity.\n\nWe particularly recommend fans with DC motors for Plano's larger bedrooms - they use 70% less energy than traditional models while moving more air. All our installations include remote controls or smart home integration for convenient operation.",
+        "process": [
+          "Step 1: Assessment of ceiling structure and wiring",
+          "Step 2: Selection of appropriately sized fan for the room",
+          "Step 3: Secure mounting with vibration dampening",
+          "Step 4: Balancing and speed testing"
+        ],
+        "benefits": [
+          "Reduces AC dependency in Texas heat",
+          "Improves sleep comfort in humid conditions",
+          "Energy-efficient DC motor options",
+          "Quiet operation even at high speeds"
+        ],
+        "faq": [
+          {
+            "question": "How many fans does my Dallas home need?",
+            "answer": "We recommend one fan per 200 sq ft in living areas and bedrooms. Great rooms may benefit from multiple units with synchronized controls."
+          },
+          {
+            "question": "Can fans help in winter too?",
+            "answer": "Properly reversed fans circulate warm air trapped at ceilings, reducing heating costs during our mild Dallas winters."
+          }
+        ]
+      },
+      {
+        "slug": "ev-charger-installation",
+        "name": "EV Charger Installation",
+        "shortDescription": "Power your electric vehicle with Dallas' fastest home charging.",
+        "description": "As Tesla's Austin gigafactory makes EVs more popular across Texas, DFW homeowners need reliable charging solutions. We install Level 2 chargers that fully power most vehicles overnight - perfect for Dallas commuters.\n\nFor Frisco's newer homes, we often install dual chargers in garages with smart load balancing. In older Dallas neighborhoods like Bishop Arts, we upgrade panels first to handle the additional demand. All our installations include GFCI protection required by Texas electrical code.\n\nWe position chargers conveniently near parking areas while maintaining proper clearance from flammable materials. Smart models allow scheduling charging during off-peak hours when Dallas electricity rates are lowest. Installation typically completes in one day with minimal disruption.",
+        "process": [
+          "Step 1: Panel assessment for charging capacity",
+          "Step 2: Strategic placement planning for daily use",
+          "Step 3: Professional installation with weatherproof conduit",
+          "Step 4: Smart charger programming and testing"
+        ],
+        "benefits": [
+          "Fully charges overnight for Dallas commutes",
+          "Integrates with solar panel systems",
+          "Smart scheduling saves on electricity",
+          "Increases home value as EVs proliferate"
+        ],
+        "faq": [
+          {
+            "question": "Will this overload my Dallas home's electrical system?",
+            "answer": "We perform detailed load calculations first. About 30% of older Dallas homes need panel upgrades before charger installation - we'll advise you honestly."
+          },
+          {
+            "question": "How much faster than a standard outlet?",
+            "answer": "Level 2 chargers work 5-7x faster than trickle charging, adding about 25 miles of range per hour of charging."
+          }
+        ]
+      },
+      {
+        "slug": "surge-protection-installation",
+        "name": "Whole-House Surge Protection",
+        "shortDescription": "Shield Dallas electronics from Texas storm damage.",
+        "description": "North Texas ranks #2 nationally for lightning strikes, making surge protection essential for DFW homes. We install professional-grade systems that protect your entire house, not just individual appliances.\n\nOur most effective solution combines a main panel surge arrester with point-of-use protectors for sensitive equipment. This layered approach has saved Dallas clients thousands in damaged computers, smart home systems, and appliances after severe thunderstorms.\n\nInstallation takes about 2 hours for most Dallas homes. We recommend this service especially for Plano's tech-heavy households and Preston Hollow's historic homes with original wiring. All components are rated for Texas' voltage fluctuations and include lifetime warranties against failure.",
+        "process": [
+          "Step 1: Assessment of your home's vulnerability points",
+          "Step 2: Main panel protector installation",
+          "Step 3: Strategic placement of secondary protectors",
+          "Step 4: System testing with simulated surges"
+        ],
+        "benefits": [
+          "Protects all home electronics simultaneously",
+          "Handles Texas-sized power fluctuations",
+          "Lifetime equipment warranties",
+          "Peace of mind during storm season"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from power strips?",
+            "answer": "While power strips help, our whole-house systems stop surges at their entry point - before they can damage wiring or appliances not plugged into protectors."
+          },
+          {
+            "question": "Is this necessary if I have a newer Dallas home?",
+            "answer": "Even new constructions benefit - modern electronics are more sensitive to small surges that may not trip breakers but gradually damage components."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Whole-House Rewiring",
+        "text": "Legacy rewired our 1952 Lake Highlands ranch after finding dangerous knob-and-tube wiring behind the walls. They preserved all our original plaster while bringing everything up to code. Two years later, not a single flicker during Texas storms!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Generator Installation",
+        "text": "When the 2023 ice storm hit, our Generac kept our Preston Hollow home warm while neighbors evacuated. The Legacy team installed it perfectly - passes city inspections with flying colors and runs so quietly we forget it's there until we need it.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Derrick W.",
+        "rating": 5,
+        "service": "EV Charger Installation",
+        "text": "As Tesla owners in Frisco, we needed fast home charging. Legacy upgraded our panel and installed two Wall Connectors with perfect placement in our garage. The smart scheduling saves us about $80/month on electricity compared to supercharging.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Ceiling Fan Installation",
+        "text": "Our Uptown condo's concrete ceilings made fan installation tricky, but Legacy's special mounts worked perfectly. The DC motor fan is whisper-quiet and keeps our bedroom comfortable without cranking the AC all summer.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Surge Protection Installation",
+        "text": "After lightning fried our home theater system last spring, Legacy installed whole-house surge protection. When another storm hit this June, our system handled multiple direct strikes with zero damage. Worth every penny for Dallas homeowners.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Natalie B.",
+        "rating": 5,
+        "service": "Outdoor Lighting Installation",
+        "text": "Legacy transformed our dark Bishop Arts backyard into an evening oasis. The path lighting withstands Texas storms, and the motion lights give peace of mind. They even matched the sconces to our historic home's style.",
+        "date": "2024-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Dallas Electrical Services | Legacy Electrical",
+        "description": "Trusted Dallas electricians serving DFW since 2012. Panel upgrades, rewiring, generators and EV chargers for Texas homes."
+      },
+      "about": {
+        "title": "About Legacy Electrical | Dallas Electricians",
+        "description": "Meet the local team keeping Dallas homes safely powered through storms and heat waves. DFW-owned electrical contractor since 2012."
+      },
+      "services": {
+        "title": "Dallas Electrical Services | Legacy Electric",
+        "description": "Complete home electrical services for Dallas-Fort Worth: rewiring, panels, lighting, generators and EV chargers installed by local experts."
+      },
+      "contact": {
+        "title": "Contact Dallas Electrician | Legacy Electrical",
+        "description": "Need an electrician in Dallas? Call Legacy Electrical at 555-ele-rq9 for prompt service across DFW including Fort Worth and Plano."
+      },
+      "reviews": {
+        "title": "Dallas Electrical Company Reviews | Legacy",
+        "description": "See why Dallas homeowners trust Legacy Electrical for rewiring, generators and electrical upgrades. 97% satisfaction rating since 2012."
+      },
+      "service-areas": {
+        "title": "Dallas Electrical Service Areas | Legacy",
+        "description": "Serving all DFW: Dallas, Fort Worth, Plano, Frisco, McKinney and Arlington electrical needs with local electricians since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Worth",
+        "slug": "fort-worth-tx",
+        "state": "TX",
+        "content": "Legacy Electrical proudly serves Fort Worth, TX, a vibrant city with a rich architectural heritage, including charming Craftsman bungalows near downtown. Our team is experienced in handling the electrical needs of older homes, ensuring they meet modern safety standards while preserving their historic charm. With Fort Worth's hot, humid summers, we also specialize in upgrading electrical systems to support efficient air conditioning and prevent overloads.\n\nWhether you need panel upgrades, lighting installations, or emergency repairs, Legacy Electrical provides reliable service tailored to Fort Worth's unique homes. We understand the challenges of older wiring and offer solutions that blend seamlessly with your home's character while enhancing functionality.",
+        "localContext": "Fort Worth features historic Craftsman bungalows and a hot, humid climate that demands robust electrical systems.",
+        "nearbyAreas": [
+          "Arlington",
+          "Keller",
+          "Benbrook"
+        ]
+      },
+      {
+        "city": "Plano",
+        "slug": "plano-tx",
+        "state": "TX",
+        "content": "Legacy Electrical is your trusted electrician in Plano, TX, serving the city's well-established subdivisions built primarily in the 1980s and 1990s. These homes often require updates to their electrical systems to accommodate modern appliances and smart home technology. Our team excels at rewiring, panel upgrades, and installing energy-efficient lighting to enhance your home's functionality.\n\nPlano's hot, humid summers mean many homeowners rely heavily on air conditioning, which can strain older electrical systems. We offer solutions to improve energy efficiency and prevent circuit overloads, ensuring your home stays comfortable year-round.",
+        "localContext": "Plano is known for its 1980s-90s subdivisions, where electrical updates are often needed for modern living.",
+        "nearbyAreas": [
+          "Frisco",
+          "Richardson",
+          "Allen"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "slug": "frisco-tx",
+        "state": "TX",
+        "content": "Legacy Electrical provides top-tier electrical services in Frisco, TX, a rapidly growing city with newer construction homes from the 2000s to 2020s. These modern homes often feature advanced electrical needs, including smart home systems, EV charging stations, and high-efficiency lighting. Our team is skilled in installing and maintaining these cutting-edge technologies.\n\nDespite their newer construction, Frisco homes can still face electrical issues due to the city's hot, humid climate, which demands reliable cooling systems. We ensure your electrical infrastructure supports your comfort and safety, offering everything from inspections to full-system upgrades.",
+        "localContext": "Frisco's newer homes often require advanced electrical solutions for smart technology and energy efficiency.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "The Colony"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "slug": "mckinney-tx",
+        "state": "TX",
+        "content": "Legacy Electrical is proud to serve McKinney, TX, a city with a blend of historic downtown homes and newer developments. Many of these older homes feature unique electrical challenges, such as outdated wiring or insufficient capacity for modern appliances. Our team specializes in preserving the charm of these properties while upgrading their electrical systems for safety and efficiency.\n\nMcKinney's hot, humid summers mean reliable air conditioning is a must. We help homeowners avoid overloaded circuits by upgrading panels and ensuring their cooling systems run smoothly. Whether you need a simple repair or a full rewiring, Legacy Electrical delivers expert service tailored to McKinney's diverse housing stock.",
+        "localContext": "McKinney's historic downtown homes often need electrical updates to meet contemporary standards.",
+        "nearbyAreas": [
+          "Frisco",
+          "Allen",
+          "Prosper"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tx",
+        "state": "TX",
+        "content": "Legacy Electrical serves Arlington, TX, a city known for its 1960s-70s ranch-style homes, which often require electrical updates to handle today's energy demands. Our team is experienced in rewiring these older properties, upgrading panels, and installing energy-efficient lighting to improve both safety and functionality.\n\nArlington's hot, humid climate means many homeowners rely on powerful cooling systems, which can strain older electrical infrastructure. We provide solutions to prevent overloads and ensure your home stays comfortable year-round. From routine maintenance to emergency repairs, Legacy Electrical is your go-to electrician in Arlington.",
+        "localContext": "Arlington's ranch-style homes from the 1960s-70s often need electrical upgrades for modern living.",
+        "nearbyAreas": [
+          "Fort Worth",
+          "Grand Prairie",
+          "Mansfield"
+        ]
+      },
+      {
+        "city": "Dallas",
+        "slug": "dallas-tx",
+        "state": "TX",
+        "content": "Legacy Electrical is a trusted provider of electrical services in Dallas, TX, serving homes of all ages and styles across the city. From historic properties to modern high-rises, our team is equipped to handle any electrical challenge. We specialize in panel upgrades, lighting installations, and troubleshooting to keep your home or business running smoothly.\n\nDallas's hot, humid summers place heavy demands on electrical systems, particularly for air conditioning. We help homeowners and businesses optimize their electrical infrastructure to prevent outages and improve energy efficiency. Whether you need a simple repair or a complex installation, Legacy Electrical delivers reliable, professional service.",
+        "localContext": "Dallas's diverse architecture and climate require versatile electrical solutions for homes and businesses.",
+        "nearbyAreas": [
+          "Plano",
+          "Garland",
+          "Irving"
+        ]
+      },
+      {
+        "city": "Garland",
+        "slug": "garland-tx",
+        "state": "TX",
+        "content": "Legacy Electrical serves Garland, TX, a city with a mix of mid-century homes and newer developments. Many older homes in Garland require electrical updates to meet modern safety standards and accommodate today's technology. Our team specializes in rewiring, panel upgrades, and installing energy-efficient lighting to enhance your home's functionality.\n\nGarland's hot, humid summers mean reliable cooling is essential, and we ensure your electrical system can handle the load. From routine inspections to emergency repairs, Legacy Electrical provides dependable service tailored to Garland's unique needs.",
+        "localContext": "Garland's mid-century homes often need electrical upgrades to support modern appliances and cooling systems.",
+        "nearbyAreas": [
+          "Dallas",
+          "Richardson",
+          "Rowlett"
+        ]
+      },
+      {
+        "city": "Irving",
+        "slug": "irving-tx",
+        "state": "TX",
+        "content": "Legacy Electrical is proud to serve Irving, TX, a city with a diverse range of homes and businesses requiring expert electrical services. Whether you live in an older neighborhood or a modern development, our team can handle everything from simple repairs to complex installations. We specialize in upgrading outdated systems to improve safety and efficiency.\n\nIrving's hot, humid climate means many residents rely on powerful air conditioning, which can strain electrical systems. We help prevent overloads by upgrading panels and ensuring your cooling systems run smoothly. Trust Legacy Electrical for reliable, professional service in Irving.",
+        "localContext": "Irving's mix of older and newer properties demands versatile electrical solutions for all types of homes.",
+        "nearbyAreas": [
+          "Dallas",
+          "Grand Prairie",
+          "Coppell"
+        ]
+      },
+      {
+        "city": "Grand Prairie",
+        "slug": "grand-prairie-tx",
+        "state": "TX",
+        "content": "Legacy Electrical provides expert electrical services in Grand Prairie, TX, a city with a variety of homes ranging from mid-century builds to newer constructions. Many older homes in Grand Prairie need electrical updates to handle modern appliances and technology. Our team specializes in rewiring, panel upgrades, and energy-efficient lighting installations.\n\nGrand Prairie's hot, humid summers place heavy demands on electrical systems, particularly for cooling. We ensure your home's electrical infrastructure can handle the load, preventing outages and improving efficiency. From routine maintenance to emergency repairs, Legacy Electrical delivers top-notch service.",
+        "localContext": "Grand Prairie's mid-century homes often require electrical upgrades to meet contemporary needs.",
+        "nearbyAreas": [
+          "Arlington",
+          "Irving",
+          "Cedar Hill"
+        ]
+      },
+      {
+        "city": "Richardson",
+        "slug": "richardson-tx",
+        "state": "TX",
+        "content": "Legacy Electrical serves Richardson, TX, a city known for its well-established neighborhoods and modern developments. Many homes in Richardson benefit from electrical upgrades to support smart home technology, EV charging stations, and energy-efficient lighting. Our team is skilled in installing and maintaining these advanced systems.\n\nRichardson's hot, humid summers mean reliable cooling is a priority, and we ensure your electrical system can handle the demand. Whether you need a panel upgrade or a full rewiring, Legacy Electrical provides dependable service tailored to Richardson's unique needs.",
+        "localContext": "Richardson's mix of older and newer homes often requires advanced electrical solutions for modern living.",
+        "nearbyAreas": [
+          "Plano",
+          "Garland",
+          "Dallas"
+        ]
+      },
+      {
+        "city": "Allen",
+        "slug": "allen-tx",
+        "state": "TX",
+        "content": "Legacy Electrical is your trusted electrician in Allen, TX, serving the city's mix of established neighborhoods and newer developments. Many older homes in Allen require electrical updates to meet modern safety standards and accommodate today's technology. Our team specializes in rewiring, panel upgrades, and installing energy-efficient lighting.\n\nAllen's hot, humid summers mean reliable cooling is essential, and we ensure your electrical system can handle the load. From routine inspections to emergency repairs, Legacy Electrical delivers professional service tailored to Allen's unique needs.",
+        "localContext": "Allen's established neighborhoods often need electrical upgrades to support modern appliances and cooling systems.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "Frisco"
+        ]
+      },
+      {
+        "city": "Mansfield",
+        "slug": "mansfield-tx",
+        "state": "TX",
+        "content": "Legacy Electrical proudly serves Mansfield, TX, a city with a mix of older and newer homes requiring expert electrical services. Many properties in Mansfield benefit from electrical updates to improve safety and efficiency. Our team specializes in panel upgrades, rewiring, and installing energy-efficient lighting to enhance your home's functionality.\n\nMansfield's hot, humid summers place heavy demands on electrical systems, particularly for cooling. We help prevent overloads by upgrading your home's electrical infrastructure. Whether you need a simple repair or a complex installation, Legacy Electrical delivers reliable, professional service.",
+        "localContext": "Mansfield's diverse housing stock often requires electrical upgrades to meet modern living standards.",
+        "nearbyAreas": [
+          "Arlington",
+          "Grand Prairie",
+          "Cedar Hill"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "whole-house-rewiring": "/images/service-whole-house-rewiring.webp",
+      "outdoor-lighting-installation": "/images/service-outdoor-lighting-installation.webp",
+      "generator-installation": "/images/service-generator-installation.webp",
+      "ceiling-fan-installation": "/images/service-ceiling-fan-installation.webp",
+      "ev-charger-installation": "/images/service-ev-charger-installation.webp",
+      "surge-protection-installation": "/images/service-surge-protection-installation.webp"
+    },
+    "servicesResponsive": {
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-rewiring": {
+        "src": "/images/service-whole-house-rewiring.webp",
+        "srcset": "/images/service-whole-house-rewiring-400w.webp 400w, /images/service-whole-house-rewiring-800w.webp 800w, /images/service-whole-house-rewiring-1200w.webp 1200w, /images/service-whole-house-rewiring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-lighting-installation": {
+        "src": "/images/service-outdoor-lighting-installation.webp",
+        "srcset": "/images/service-outdoor-lighting-installation-400w.webp 400w, /images/service-outdoor-lighting-installation-800w.webp 800w, /images/service-outdoor-lighting-installation-1200w.webp 1200w, /images/service-outdoor-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ceiling-fan-installation": {
+        "src": "/images/service-ceiling-fan-installation.webp",
+        "srcset": "/images/service-ceiling-fan-installation-400w.webp 400w, /images/service-ceiling-fan-installation-800w.webp 800w, /images/service-ceiling-fan-installation-1200w.webp 1200w, /images/service-ceiling-fan-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ev-charger-installation": {
+        "src": "/images/service-ev-charger-installation.webp",
+        "srcset": "/images/service-ev-charger-installation-400w.webp 400w, /images/service-ev-charger-installation-800w.webp 800w, /images/service-ev-charger-installation-1200w.webp 1200w, /images/service-ev-charger-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "surge-protection-installation": {
+        "src": "/images/service-surge-protection-installation.webp",
+        "srcset": "/images/service-surge-protection-installation-400w.webp 400w, /images/service-surge-protection-installation-800w.webp 800w, /images/service-surge-protection-installation-1200w.webp 1200w, /images/service-surge-protection-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
